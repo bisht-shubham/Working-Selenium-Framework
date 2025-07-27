@@ -1,0 +1,85 @@
+package projectName.Tests;
+
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import projectName.Common.common;
+
+public class Test1 extends common {
+
+	@Test
+	public void selectLocation() {
+		
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement LocationPopupButton = driver.findElement(By.id("select_location_popup"));
+
+		LocationPopupButton.click();
+
+		WebElement LocationSearchBox = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='searchin']")));
+		LocationSearchBox.sendKeys("Virar");
+
+		WebElement firstSuggestedLocation = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//span[@class='pac-matched'])[2]")));
+		firstSuggestedLocation.click();
+
+		WebElement confirmLocationButton = wait.until(ExpectedConditions
+				.visibilityOfElementLocated(By.xpath("//button[@aria-label='button Confirm Location']")));
+		confirmLocationButton.click();
+	}
+
+	@Test(dependsOnMethods= "selectLocation")
+	public void searchProductsAndAddToCart() {
+		selectLocation();
+
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+		WebElement searchProductsBox = wait.until(
+				ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@placeholder='Search in JioMart']")));
+		searchProductsBox.sendKeys("Hide and Seek");
+
+		WebElement firstAutocompleteSuggestion = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.id("autocomplete-0-suggestions-item-0")));
+		firstAutocompleteSuggestion.click();
+
+		wait.until(
+				ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='plp-card-container'] //button")));
+
+		int availableProductsCount = driver.findElements(By.xpath("//div[@class='plp-card-container'] //button"))
+				.size();
+
+		List<WebElement> productAddToCartButtons = driver
+				.findElements(By.xpath("//div[@class='plp-card-container'] //button"));
+
+		for (WebElement buttons : productAddToCartButtons) {
+			buttons.click();
+		}
+
+		String cartIconCount = driver.findElement(By.xpath("//div[@class='header-main-user-cart mini-cart'] //div"))
+				.getText().trim();
+		int cartIconCountInt = Integer.parseInt(cartIconCount);
+
+		Assert.assertEquals(cartIconCountInt, availableProductsCount);
+	}
+	
+	@Test(dependsOnMethods= "searchProductsAndAddToCart")
+	public void goToCart() throws InterruptedException {
+		searchProductsAndAddToCart();
+		Actions actions = new Actions(driver);
+		WebElement cartIcon = driver.findElement(By.id("btn_minicart"));
+		actions.moveToElement(cartIcon).perform();
+		
+		Thread.sleep(10000);
+		
+//		WebElement proceedToCartButton = driver.findElement(By.xpath("//button[contains(text(),'Proceed to Cart')]"));
+//		proceedToCartButton.click();
+	}
+}

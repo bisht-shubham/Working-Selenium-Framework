@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-26T21:55:23 IST" name="Default suite" finished-at="2025-07-26T21:56:00 IST" duration-ms="37475">
+    <groups>
+    </groups>
+    <test started-at="2025-07-26T21:55:23 IST" name="Default test" finished-at="2025-07-26T21:56:00 IST" duration-ms="37475">
+      <class name="projectName.Tests.Test1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:projectName.Tests.Test1@33d512c1]" started-at="2025-07-26T21:55:23 IST" name="setup" finished-at="2025-07-26T21:55:27 IST" duration-ms="4423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completeJioMartPurchaseFlow()[pri:0, instance:projectName.Tests.Test1@33d512c1]" started-at="2025-07-26T21:55:27 IST" name="completeJioMartPurchaseFlow" finished-at="2025-07-26T21:55:59 IST" duration-ms="32295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeJioMartPurchaseFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:projectName.Tests.Test1@33d512c1]" started-at="2025-07-26T21:55:59 IST" name="tearDown" finished-at="2025-07-26T21:56:00 IST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- projectName.Tests.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

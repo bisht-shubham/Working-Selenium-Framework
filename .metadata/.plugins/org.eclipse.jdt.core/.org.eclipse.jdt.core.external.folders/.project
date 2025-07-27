@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>C:/Users/SHUBHAM/.eclipse/org.eclipse.platform_4.36.0_1709980481_win32_win32_x86_64/configuration/org.eclipse.osgi/529/0/.cp</location>
+		</link>
+	</linkedResources>
+</projectDescription>
