@@ -1,2 +1,13 @@
-<suite>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="JioMart Automation Suite"> <!-- The 'name' attribute is required here -->
+  <test name="Login Test">
+    <classes>
+      <class name="your.package.LoginPageTest"/>
+    </classes>
+  </test>
+  <test name="Product Search Test">
+    <classes>
+      <class name="your.package.ProductSearchTest"/>
+    </classes>
+  </test>
 </suite>

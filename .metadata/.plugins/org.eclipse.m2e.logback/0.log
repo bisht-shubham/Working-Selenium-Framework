@@ -1147,3 +1147,5 @@
 2025-07-27 09:55:35,446 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\test\resources
 2025-07-27 09:55:47,991 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\main\resources
 2025-07-27 09:55:47,992 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\test\resources
+2025-07-27 09:56:42,793 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\main\resources
+2025-07-27 09:56:42,795 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\test\resources
