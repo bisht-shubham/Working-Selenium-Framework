@@ -10,9 +10,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import projectName.Common.common;
+import projectName.TestComponents.BaseTest;
 
-public class Test1 extends common {
+public class Test1 extends BaseTest {
 
 	public void selectLocation() {
 

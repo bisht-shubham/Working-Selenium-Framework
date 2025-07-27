@@ -1117,3 +1117,33 @@
 2025-07-27 09:16:40,821 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2025-07-27 09:16:40,822 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\test\resources
 2025-07-27 09:25:15,301 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-07-27 09:46:16,395 [Worker-52: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.selenium.framework:SeleniumFramework:1.0.0 @ C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\pom.xml.
+2025-07-27 09:46:16,644 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\main\resources
+2025-07-27 09:46:16,660 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\test\resources
+2025-07-27 09:46:16,981 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-27 09:46:17,167 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.selenium.framework:SeleniumFramework:1.0.0 @ C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\pom.xml.
+2025-07-27 09:46:17,453 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFramework/src/main/java
+2025-07-27 09:46:17,453 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumFramework/src/main/resources
+2025-07-27 09:46:17,453 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFramework/src/test/java
+2025-07-27 09:46:17,453 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumFramework/src/test/resources
+2025-07-27 09:46:17,553 [Worker-51: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: BaseTest, ...
+2025-07-27 09:46:17,562 [Worker-51: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating BaseTest, ... from maven configuration
+2025-07-27 09:46:17,792 [Worker-51: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: Test1.addToCart
+2025-07-27 09:46:17,792 [Worker-51: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating Test1.addToCart from maven configuration
+2025-07-27 09:46:17,792 [Worker-51: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: Test1.completeJioMartPurchaseFlow
+2025-07-27 09:46:17,792 [Worker-51: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating Test1.completeJioMartPurchaseFlow from maven configuration
+2025-07-27 09:46:17,792 [Worker-51: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: Test1
+2025-07-27 09:46:17,792 [Worker-51: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating Test1 from maven configuration
+2025-07-27 09:46:17,792 [Worker-51: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: Test1.searchProductsAndAddToCart
+2025-07-27 09:46:17,792 [Worker-51: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating Test1.searchProductsAndAddToCart from maven configuration
+2025-07-27 09:46:17,792 [Worker-51: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: Test1.selectLocation
+2025-07-27 09:46:17,792 [Worker-51: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating Test1.selectLocation from maven configuration
+2025-07-27 09:46:17,911 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-07-27 09:46:18,210 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\main\resources
+2025-07-27 09:46:18,210 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\test\resources
+2025-07-27 09:55:32,604 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\main\resources
+2025-07-27 09:55:32,608 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\test\resources
+2025-07-27 09:55:35,444 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\main\resources
+2025-07-27 09:55:35,446 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\test\resources
+2025-07-27 09:55:47,991 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\main\resources
+2025-07-27 09:55:47,992 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\SHUBHAM\Desktop\SeleniumFramework\SeleniumFramework\src\test\resources
